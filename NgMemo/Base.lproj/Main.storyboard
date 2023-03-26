@@ -165,15 +165,15 @@
                             <constraint firstItem="k1f-jn-f2N" firstAttribute="trailing" secondItem="cu5-7o-Jke" secondAttribute="trailing" id="w5p-8y-VeI"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="새 메모" id="wXL-BK-AEs">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="Q1I-My-XGB">
+                    <navigationItem key="navigationItem" title="새 메모" id="bbl-0N-F3L">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="svn-V9-4QN">
                             <connections>
-                                <action selector="close:" destination="Xrg-re-LlS" id="h1h-r2-lUW"/>
+                                <action selector="close:" destination="Xrg-re-LlS" id="vXd-Oa-0Vz"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="hCH-17-p8a">
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="6rb-2v-jed">
                             <connections>
-                                <action selector="save:" destination="Xrg-re-LlS" id="hRM-O3-oVS"/>
+                                <action selector="save:" destination="Xrg-re-LlS" id="shW-Ws-qrr"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -183,7 +183,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ye2-Fe-xbU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1916" y="-309"/>
+            <point key="canvasLocation" x="1915.9420289855075" y="-309.375"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pxC-Cj-BVL">
