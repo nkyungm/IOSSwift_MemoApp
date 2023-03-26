@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7D763C3329CEE38F0043E266 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D763C3229CEE38F0043E266 /* AppDelegate.swift */; };
 		7D763C3529CEE38F0043E266 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D763C3429CEE38F0043E266 /* SceneDelegate.swift */; };
-		7D763C3729CEE38F0043E266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D763C3629CEE38F0043E266 /* ViewController.swift */; };
 		7D763C3A29CEE38F0043E266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D763C3829CEE38F0043E266 /* Main.storyboard */; };
 		7D763C3D29CEE38F0043E266 /* NgMemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D763C3B29CEE38F0043E266 /* NgMemo.xcdatamodeld */; };
 		7D763C3F29CEE3910043E266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D763C3E29CEE3910043E266 /* Assets.xcassets */; };
@@ -20,7 +19,6 @@
 		7D763C2F29CEE38F0043E266 /* NgMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NgMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D763C3229CEE38F0043E266 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D763C3429CEE38F0043E266 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7D763C3629CEE38F0043E266 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7D763C3929CEE38F0043E266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D763C3C29CEE38F0043E266 /* NgMemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NgMemo.xcdatamodel; sourceTree = "<group>"; };
 		7D763C3E29CEE3910043E266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 			children = (
 				7D763C3229CEE38F0043E266 /* AppDelegate.swift */,
 				7D763C3429CEE38F0043E266 /* SceneDelegate.swift */,
-				7D763C3629CEE38F0043E266 /* ViewController.swift */,
 				7D763C3829CEE38F0043E266 /* Main.storyboard */,
 				7D763C3E29CEE3910043E266 /* Assets.xcassets */,
 				7D763C4029CEE3910043E266 /* LaunchScreen.storyboard */,
@@ -141,7 +138,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D763C3729CEE38F0043E266 /* ViewController.swift in Sources */,
 				7D763C3329CEE38F0043E266 /* AppDelegate.swift in Sources */,
 				7D763C3D29CEE38F0043E266 /* NgMemo.xcdatamodeld in Sources */,
 				7D763C3529CEE38F0043E266 /* SceneDelegate.swift in Sources */,
