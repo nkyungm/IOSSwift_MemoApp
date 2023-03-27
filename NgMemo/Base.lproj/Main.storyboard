@@ -9,14 +9,14 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--NgMemo-->
+        <!--Memo🧸-->
         <scene sceneID="962-C5-T7f">
             <objects>
                 <tableViewController id="zFy-nU-98a" customClass="MemoListTableViewController" customModule="NgMemo" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="6dD-QB-cCk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.98431372640000003" green="0.93725490570000003" blue="0.70980393890000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="cell" textLabel="he6-3l-Hqq" detailTextLabel="fk2-DZ-cyz" style="IBUITableViewCellStyleSubtitle" id="G5D-fA-824">
                                 <rect key="frame" x="0.0" y="50" width="414" height="43.5"/>
@@ -41,6 +41,7 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.96470588450000005" green="0.96862745289999996" blue="0.92156863209999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <connections>
                                     <segue destination="ora-vY-1bo" kind="show" id="xKf-zZ-TgG"/>
                                 </connections>
@@ -51,8 +52,9 @@
                             <outlet property="delegate" destination="zFy-nU-98a" id="rhG-4w-zgU"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="NgMemo" id="oY9-bO-X5X">
+                    <navigationItem key="navigationItem" title="Memo🧸" id="oY9-bO-X5X">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Tpn-oc-88Z">
+                            <color key="tintColor" red="0.96841138599999999" green="0.60217276769999994" blue="0.34062566550000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <connections>
                                 <segue destination="QVA-oY-6vA" kind="presentation" id="2rI-hb-iaC"/>
                             </connections>
@@ -73,6 +75,7 @@
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cO2-ku-fre">
                                 <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                                <color key="backgroundColor" red="0.98431372640000003" green="0.93725490570000003" blue="0.70980393890000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <items>
                                     <barButtonItem systemItem="trash" id="ouw-So-40n">
                                         <color key="tintColor" systemColor="systemRedColor"/>
@@ -82,12 +85,14 @@
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="cLe-Ts-cex"/>
                                     <barButtonItem systemItem="compose" id="odt-qK-xe0">
+                                        <color key="tintColor" red="0.96841138599999999" green="0.60217276769999994" blue="0.34062566550000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <connections>
                                             <segue destination="QVA-oY-6vA" kind="presentation" id="hzb-ln-H9P"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="Zcd-yq-jbJ"/>
                                     <barButtonItem systemItem="action" id="ccw-fJ-MSJ">
+                                        <color key="tintColor" red="0.96841138599999999" green="0.60217276769999994" blue="0.34062566550000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <connections>
                                             <action selector="share:" destination="ora-vY-1bo" id="IBL-VW-Y1Q"/>
                                         </connections>
@@ -96,7 +101,7 @@
                             </toolbar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="fwW-dj-C1k">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.98431372640000003" green="0.93725490570000003" blue="0.70980393890000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="memoCell" textLabel="Nq5-Ad-iK2" style="IBUITableViewCellStyleDefault" id="ch3-kc-4l8">
                                         <rect key="frame" x="0.0" y="50" width="414" height="44"/>
@@ -108,12 +113,14 @@
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Nq5-Ad-iK2">
                                                     <rect key="frame" x="20" y="0.0" width="374" height="44"/>
                                                     <autoresizingMask key="autoresizingMask"/>
+                                                    <color key="backgroundColor" red="0.96470588450000005" green="0.96862745289999996" blue="0.92156863209999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.96470588450000005" green="0.96862745289999996" blue="0.92156863209999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="dateCell" textLabel="owO-IY-Q87" style="IBUITableViewCellStyleDefault" id="VoJ-gu-cSt">
                                         <rect key="frame" x="0.0" y="94" width="414" height="44"/>
@@ -131,6 +138,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.96470588450000005" green="0.96862745289999996" blue="0.92156863209999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -150,7 +158,7 @@
                             <constraint firstItem="cO2-ku-fre" firstAttribute="trailing" secondItem="GfH-IF-gOJ" secondAttribute="trailing" id="ypo-st-0b2"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="lWx-3g-RWj"/>
+                    <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="lWx-3g-RWj" colorLabel="IBBuiltInLabel-Orange"/>
                     <connections>
                         <outlet property="memoTableView" destination="fwW-dj-C1k" id="8l7-tj-upL"/>
                     </connections>
@@ -159,7 +167,7 @@
             </objects>
             <point key="canvasLocation" x="1018.840579710145" y="375"/>
         </scene>
-        <!--새 메모-->
+        <!--new Memo📝-->
         <scene sceneID="z8O-a2-tzE">
             <objects>
                 <viewController id="Xrg-re-LlS" customClass="ComposeViewController" customModule="NgMemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -169,7 +177,7 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="k1f-jn-f2N">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.96470588450000005" green="0.96862745289999996" blue="0.92156863209999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -185,13 +193,15 @@
                             <constraint firstItem="k1f-jn-f2N" firstAttribute="trailing" secondItem="cu5-7o-Jke" secondAttribute="trailing" id="w5p-8y-VeI"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="새 메모" id="bbl-0N-F3L">
+                    <navigationItem key="navigationItem" title="new Memo📝" id="bbl-0N-F3L">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="svn-V9-4QN">
+                            <color key="tintColor" red="0.96841138599999999" green="0.60217276769999994" blue="0.34062566550000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <connections>
                                 <action selector="close:" destination="Xrg-re-LlS" id="vXd-Oa-0Vz"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="6rb-2v-jed">
+                            <color key="tintColor" systemColor="systemOrangeColor"/>
                             <connections>
                                 <action selector="save:" destination="Xrg-re-LlS" id="shW-Ws-qrr"/>
                             </connections>
@@ -210,7 +220,7 @@
             <objects>
                 <navigationController id="v7Z-eP-mhT" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="Ja4-KA-8na">
-                        <rect key="frame" x="0.0" y="48" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="48" width="414" height="104.5"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -241,14 +251,18 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="hzb-ln-H9P"/>
+        <segue reference="2rI-hb-iaC"/>
     </inferredMetricsTieBreakers>
+    <color key="tintColor" systemColor="systemOrangeColor"/>
     <resources>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
